@@ -12,7 +12,7 @@ const AnimatedLogo: React.FC = () => {
         </div>
       </div>
       <div className="text-xl font-semibold tracking-tight bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
-        AdjusterConnect
+        Rapid Dispatch
       </div>
       <div className="relative">
         <div className="absolute inset-0 rounded-full bg-blue-400/20 animate-ping"></div>
