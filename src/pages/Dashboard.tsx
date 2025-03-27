@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -91,7 +92,9 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="mt-3 md:mt-0">
-                    <Button variant="outline" size="sm">View Details</Button>
+                    <Link to="/incidents/1">
+                      <Button variant="outline" size="sm">View Details</Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -117,7 +120,9 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="mt-3 md:mt-0">
-                    <Button variant="outline" size="sm">View Details</Button>
+                    <Link to="/incidents/2">
+                      <Button variant="outline" size="sm">View Details</Button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -143,7 +148,9 @@ const Dashboard = () => {
                     </div>
                   </div>
                   <div className="mt-3 md:mt-0">
-                    <Button variant="outline" size="sm">View Details</Button>
+                    <Link to="/incidents/3">
+                      <Button variant="outline" size="sm">View Details</Button>
+                    </Link>
                   </div>
                 </div>
               </div>
